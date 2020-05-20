@@ -10,7 +10,6 @@ html {
 body {
   font-family: "Assistant", sans-serif;
   overflow-x: hidden;
-  /* background: #163172; */
 }
 p {
   color: #34374c;
@@ -175,7 +174,10 @@ footer {
 }
 
 @media only screen and (min-width: 300px) and (max-width: 767px) {
-  #Web {
+    #botonheader{
+        display: none;
+    }
+    #Web {
     display: none;
   }
   .banner {

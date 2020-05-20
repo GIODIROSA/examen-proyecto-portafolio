@@ -114,9 +114,19 @@ header{
 
 /* carousel */
 #Web{
-    background:var(--section-color);
+    background:var(--alternativo-color);
 }
+.carousel-inner{
+    height: 500px;
+    width: 60%;
+
+}
+.carousel-indicators{
+    display: none;
+}
+
 .ejercicios{
+    text-align: center;
     font-size: 38px;
     color: var(--titulo-color);
     font-family: 'Abril Fatface', cursive;

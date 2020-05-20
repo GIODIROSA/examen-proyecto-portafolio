@@ -1,274 +1,247 @@
-*{
-    margin: 0px;
-    border: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
-body{
-    font-family: 'Assistant', sans-serif;
-    overflow-x: hidden;
-    /* background: #163172; */
+body {
+  font-family: "Assistant", sans-serif;
+  overflow-x: hidden;
+  /* background: #163172; */
 }
-p{
-    color: #34374c;
+p {
+  color: #34374c;
 }
-span{
-    font-family: 'Cookie', cursive;
-    font-size: 30px;
+span {
+  font-family: "Cookie", cursive;
+  font-size: 30px;
 }
-h3{
-    font-family: 'Abril Fatface', cursive;
-    color:var(--titulo-color);
+h3 {
+  font-family: "Abril Fatface", cursive;
+  color: var(--titulo-color);
 }
 /* variables */
-:root{
-    --alternativo-color:#ee2b47;
-    --titulo-color:#00bbf0;
-    --navbar-color:#00204a;
-    --section-color:#f6f6f6;
-    --footer-color:#34374c;
+:root {
+  --alternativo-color: #ee2b47;
+  --titulo-color: #00bbf0;
+  --navbar-color: #00204a;
+  --section-color: #f6f6f6;
+  --footer-color: #34374c;
 }
 /* navbar */
-.navbar{
-    background:var(--navbar-color);
+.navbar {
+  background: var(--navbar-color);
 }
-.navbar-toggler{
-    padding: 2px;
+.navbar-toggler {
+  padding: 2px;
 }
-.navbar-toggler-icon{
-    width: 25px;
-    height: 25px;
+.navbar-toggler-icon {
+  width: 25px;
+  height: 25px;
 }
 /* boton */
-.callaction{
-    border-radius: 5px;
-   margin: 10px 700px;
-   width: 100px;
-   height: 40px;
-   background: var(--alternativo-color);
+.callaction {
+  border-radius: 5px;
+  margin: 10px 700px;
+  width: 100px;
+  height: 40px;
+  background: var(--alternativo-color);
 }
 
 /* contacto superior */
-#Phone{
-    width: 100vw;
-    height: 35px;
-    padding-right: 5px;
-    background: var(--footer-color);
-    color: #ffffff;
-    font-size: 12px;
+#Phone {
+  width: 100vw;
+  height: 35px;
+  padding-right: 5px;
+  background: var(--footer-color);
+  color: #ffffff;
+  font-size: 12px;
 }
 /* hero-section */
-header{
-   background-image: url(../img/hero-section.png);
-    height: 300px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+header {
+  background-image: url(../img/hero-section.png);
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.hero-section h1{
-    text-align: center;
-    color:#ffffff;
-    padding-top: 90px;
-    font-family: 'Abril Fatface', cursive;
-    font-size: 42px;
+.hero-section h1 {
+  text-align: center;
+  color: #ffffff;
+  padding-top: 90px;
+  font-family: "Abril Fatface", cursive;
+  font-size: 42px;
 }
 /* introducción a cv */
-.introCv{
-    background: var(--section-color);
-    text-align: center;
+.introCv {
+  background: var(--section-color);
+  text-align: center;
 }
-.introCv h2{
-    color: var(--titulo-color);
-    padding: 20px 0px;
-    font-size: 38px;
-    font-family: 'Abril Fatface', cursive;
-    margin: 0px;
+.introCv h2 {
+  color: var(--titulo-color);
+  padding: 20px 0px;
+  font-size: 38px;
+  font-family: "Abril Fatface", cursive;
+  margin: 0px;
 }
-.introCv p{
-    padding-top: 20px;
-    padding-bottom: 60px;
-    margin: 0px;
-    font-weight: 300;
+.introCv p {
+  padding-top: 20px;
+  padding-bottom: 60px;
+  margin: 0px;
+  font-weight: 300;
 }
 /* curriculum */
 
-.cv ul{
-    text-align: center;
+.cv ul {
+  text-align: center;
 }
-.cv li{
-    list-style: none;
+.cv li {
+  list-style: none;
 }
-.academia{
-    color:var(--footer-color);
+.academia {
+  color: var(--footer-color);
 }
 /* parallax */
-.banner{
-    background-image: url("../img/parallax\ 01.png");
-    height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.banner {
+  background-image: url("../img/parallax\ 01.png");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
 
 /* carousel */
-#Web{
-    background:var(--alternativo-color);
+#Web {
+  background: var(--alternativo-color);
 }
-.carousel-inner{
-    height: 500px;
-    width: 60%;
+.carousel-inner {
+  height: 500px;
+  width: 60%;
+}
+.carousel-indicators {
+  display: none;
+}
 
-}
-.carousel-indicators{
-    display: none;
-}
-
-.ejercicios{
-    text-align: center;
-    font-size: 38px;
-    color: var(--titulo-color);
-    font-family: 'Abril Fatface', cursive;
+.ejercicios {
+  text-align: center;
+  font-size: 38px;
+  color: var(--titulo-color);
+  font-family: "Abril Fatface", cursive;
 }
 
 /* card */
-.card-title{
-    color:var(--titulo-color);
-    font-family: 'Abril Fatface', cursive;
+.card-title {
+  color: var(--titulo-color);
+  font-family: "Abril Fatface", cursive;
 }
-.card:hover{
-    box-shadow: 10px 5px 20px var(--footer-color);
+.card:hover {
+  box-shadow: 10px 5px 20px var(--footer-color);
 }
 /* modal */
-.modal-title{
-    font-family: 'Abril Fatface', cursive;
-    color: var(--footer-color);
-
+.modal-title {
+  font-family: "Abril Fatface", cursive;
+  color: var(--footer-color);
 }
-.modal-body h2{
-    color:var(--titulo-color);
-    font-family: 'Abril Fatface', cursive;
+.modal-body h2 {
+  color: var(--titulo-color);
+  font-family: "Abril Fatface", cursive;
 }
 
 /* footer */
-footer{
-    background:var(--footer-color);
-    height: 150px;
+footer {
+  background: var(--footer-color);
+  height: 150px;
 }
-.menuSecundario{
-    text-align: center;
+.menuSecundario {
+  text-align: center;
 }
-.menuSecundario ul{
-    padding-top: 5px;
-    list-style: none;
-    color:var(--titulo-color)
-    
+.menuSecundario ul {
+  padding-top: 5px;
+  list-style: none;
+  color: var(--titulo-color);
 }
-.menuSecundario li{
-    display: inline-block;
-    margin: 0 10px 0;
-    font-size: 20px;
+.menuSecundario li {
+  display: inline-block;
+  margin: 0 10px 0;
+  font-size: 20px;
 }
-.derechos{
-    height: 60px;
-    background:var(--navbar-color);
+.derechos {
+  height: 60px;
+  background: var(--navbar-color);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (min-width: 300px) and (max-width: 767px){
-    #Web{
-        display: none;
-    }
-    .banner{
-        display: none;
-    }
-    .categoriaWeb{
-        display: none;
-    }
-    .textoEscritorio{
-        display: none;
-    }
-    #Soy{
-        display: none;
-    }
-    .derechos{
-        height: 80px;
-    }
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+  #Web {
+    display: none;
+  }
+  .banner {
+    display: none;
+  }
+  .categoriaWeb {
+    display: none;
+  }
+  .textoEscritorio {
+    display: none;
+  }
+  #Soy {
+    display: none;
+  }
+  .derechos {
+    height: 80px;
+  }
 }
-@media only screen and (min-width:768px){
-   header{
-       height: 800px;
-   }
-    .hero-section h1{
-        padding-top: 300px; ;
-       font-size: 80px;
-   }
-   .cv{
-       padding: 50px 0px !important;
-   }
-.introCv{
+@media only screen and (min-width: 768px) {
+  header {
+    height: 800px;
+  }
+  .hero-section h1 {
+    padding-top: 300px;
+    font-size: 80px;
+  }
+  .cv {
+    padding: 50px 0px !important;
+  }
+  .introCv {
     margin-top: 50px;
     border-radius: 5px;
-}
-.introCv h2{
+  }
+  .introCv h2 {
     padding-top: 60px;
     font-size: 90px;
-}
-.introCv p{
+  }
+  .introCv p {
     padding-top: 35px;
     padding-right: 50px;
     text-align: left;
-}
-footer{
+  }
+  footer {
     height: 400px;
-}
+  }
 
-.menuSecundario{
+  .menuSecundario {
     margin-left: 28px;
     padding-top: 50px;
     text-align: left;
-}
-.iconoSecundario{
+  }
+  .iconoSecundario {
     text-align: left;
-}
-.textoEscritorio{
+  }
+  .textoEscritorio {
     padding-top: 50px;
     margin-left: 50px;
     width: 40%;
-    font-family: 'Abril Fatface', cursive;
-    color:var(--titulo-color);
-}
-.textoEscritorio p{
+    font-family: "Abril Fatface", cursive;
+    color: var(--titulo-color);
+  }
+  .textoEscritorio p {
     padding-top: 30px;
-    font-family: 'Assistant', sans-serif;
-}
-#Grafica{
+    font-family: "Assistant", sans-serif;
+  }
+  #Grafica {
     padding-top: 50px;
-}
-   
-
-
-
-
+  }
 }

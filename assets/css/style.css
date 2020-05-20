@@ -47,6 +47,14 @@ nav{
     width: 25px;
     height: 25px;
 }
+/* boton */
+.callaction{
+    border-radius: 5px;
+   margin: 10px 700px;
+   width: 100px;
+   height: 40px;
+   background: var(--alternativo-color);
+}
 
 /* contacto superior */
 #Phone{

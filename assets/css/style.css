@@ -173,6 +173,10 @@ footer{
     margin: 0 10px 0;
     font-size: 20px;
 }
+.derechos{
+    height: 60px;
+    background:var(--navbar-color);
+}
 
 
 
@@ -207,6 +211,9 @@ footer{
     }
     #Soy{
         display: none;
+    }
+    .derechos{
+        height: 80px;
     }
 }
 @media only screen and (min-width:768px){
